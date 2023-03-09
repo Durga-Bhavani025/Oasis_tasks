@@ -1,0 +1,143 @@
+.bd{
+background-image:url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg');
+}
+
+button
+{
+background-color:#4CAF50;
+border:none;
+color:white;
+padding;0.5em 1.5em;
+text-align:center;
+outline:none;
+border:none;
+font-size:1.5em;
+mrgin-right:30px;
+border-radius:1.8em 1.5em 1.5em 0;
+transition:transform 0.2s;
+}
+
+.head
+{
+color:blue;
+font-size:60px;
+font-face:Verdana;
+text-align:center;
+background-color:pink;
+
+}
+
+button:hover
+{
+transform: translateY(-5px);
+box-shadow:0 5px 5px #00000040;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    
+    background-image:url('back.jpeg');
+    position: relative;
+    overflow:hidden;
+}
+
+top{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+top ul li a:hover::after{
+    width: 100%;
+}
+
+marquee
+{
+color:red;
+background-color:yellow;
+font-size:30px;
+}
+.imp-content {
+    width: 60%;
+    padding-top: 100px;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imp-content h1{
+    font-size: 50px;
+    font-weight: 10000px;
+    letter-spacing: 1px;
+    color:red;
+    padding-top: 10rem;
+
+}
+.imp-content p{
+    margin-top: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-right: 6rem;
+    color: rgb(93, 43, 10);
+    font-weight: 500;
+}
+.imp-content button{
+    margin-top: 30rem;
+    outline:none;
+    border: none;
+    font-size: 18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 0 50% 50% 0;
+    background-color: #494234;
+    color: white;
+    cursor: pointer;
+    margin-left: 30rem;
+
+}
+.swiper{
+    width: 27rem;
+    padding-bottom: 25rem;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    position: absolute;
+    right: 4%;
+    bottom: 25%; 
+}
+.box{
+    display: flex;
+    align-items:center;
+}
+.right .box .image img{
+    width: 70%;
+}
+.image{
+    margin-top: 1rem;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.image:hover{
+    background-color: rgba(73,66,52,0.7);
+}
+.box .inner-box{
+    margin:1.5 rem 0 0 1rem;
+}
+.box .inner-box p{
+    font-size:14px;
+    font-weight: 500;
+}
